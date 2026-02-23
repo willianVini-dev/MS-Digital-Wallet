@@ -1,0 +1,62 @@
+# =========================
+# Binaries
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.app
+
+# Build directories
+bin/
+dist/
+build/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go modules
+vendor/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Coverage reports
+# =========================
+coverage.out
+*.coverprofile
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+*.tmp
