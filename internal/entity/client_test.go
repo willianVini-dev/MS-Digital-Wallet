@@ -34,3 +34,10 @@ func TestUpdateClientWhenArgsInvalid(t *testing.T) {
 	assert.NotNil(t, err)
 	assert.Error(t, err, "name is required")
 }
+
+func TestAddAccountToClient(t *testing.T) {
+	client, _ := NewClient("teste", "teste@hotmail.com")
+	account := NewAccount(client)
+	err := client.AddAccount(account)
+	assert.Nil(t, err)
+}
